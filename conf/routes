@@ -3,10 +3,6 @@ GET        /                       controllers.HomeController.index
 # Kafka call test
 GET			/kafkatest				controllers.HomeController.kafkaTest
 
-# Spark call test
-GET        /test                   controllers.HomeController.test
-GET        /testA                  controllers.HomeController.testAsync
-
 # Map static resources from the /public folder to the /assets URL path
 GET        /assets/*file        controllers.Assets.at(path="/public", file)
 
